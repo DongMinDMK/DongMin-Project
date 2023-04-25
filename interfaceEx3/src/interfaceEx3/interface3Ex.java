@@ -1,3 +1,4 @@
+package interfaceEx3;
 
 public class interface3Ex {
 
@@ -22,10 +23,12 @@ public class interface3Ex {
 		rh.putRaincoat();
 		
 		rh.meDMK();
-		
+
+
 	}
 
 }
+
 interface Weather{ //인터페이스는 무조건 자식에서 상속을 받아 오버라이딩으로 재정의를 해야한다.(=추상 클래스, 추상 메소드)
 	public void snowing();
 	public void sunning();
