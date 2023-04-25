@@ -1,4 +1,3 @@
-package interfaceEx3;
 
 public class interface3Ex {
 
@@ -23,6 +22,7 @@ public class interface3Ex {
 		rh.putRaincoat();
 		
 		rh.meDMK();
+
 
 
 	}
@@ -77,3 +77,5 @@ class ReconizedHuman implements Weather, human{ //인터페이스인 Weather와 
 	}
 	
 }
+
+
