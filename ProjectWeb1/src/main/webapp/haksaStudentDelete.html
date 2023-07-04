@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>학생 삭제</title>
+  <style>
+    #delete{
+      width: 100px;
+      height: 100px;
+      margin-left: 100px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+		<h2>학생삭제</h2>
+	<form action = "studentDelete.do" method = "get">
+    	삭제할 학생 이름 : <input type = "text" name = "name" placeholder="삭제할 이름 입력..." required = "required" id = "name"><br>
+    	<input type = "image" src = "images/delete.png" id = "delete">
+    </form>
+</body>
+</html>

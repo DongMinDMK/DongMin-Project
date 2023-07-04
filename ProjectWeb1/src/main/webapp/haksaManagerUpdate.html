@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>학사관리프로젝트</title>
+  <style>
+  #updateManagerID{
+    margin-left: 16px;
+  }
+  #updateManagerName{
+    margin-left: 32px;
+  }
+  #updateManagerDepartment{
+    margin-left: 32px;
+  }
+  #update{
+    width: 100px;
+    height: 100px;
+  }
+  </style>
+</head>
+<body>
+  <h2>관리자수정</h2>
+  <form action = "managerUpdate.do" method = "get">
+    기존의 관리자이름입력 : <input type = "text"  name = "name" placeholder="기존이름입력..." id = "ManagerName" required = "required"><br>
+    수정할 관리자아이디 : <input type = "text" name = "id" placeholder="관리자아이디입력..." id = "updateManagerID" required = "required"><br>
+    수정할 관리자비밀번호 : <input type = "password" name = "passwd" placeholder="관리자비밀번호입력..." id = "updateManagerPW" required = "required"><br>
+    수정할 관리자이름 : <input type = "text" name = "updateName" placeholder="관리자이름입력..." id = "updateManagerName" required = "required"><br>
+    수정할 관리자부서 : <input type = "text" name = "department" placeholder="관리자부서입력..." id = "updateManagerDepartment" required = "required"><br>
+    <input type ="image" src = "images/update.png" id = "update">
+  </form>
+</body>
+</html>

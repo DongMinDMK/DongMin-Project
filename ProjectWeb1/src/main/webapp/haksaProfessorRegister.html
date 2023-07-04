@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>학사관리프로젝트</title>
+  <style>
+    #idInput{
+      margin-left: 15px;
+    }
+    #pwInput{
+      margin-left: 6px;
+    }
+    #btn1{
+      width: 100px;
+      height: 100px;
+    }
+    #btn2{
+      width: 100px;
+      height: 100px;
+    }
+  </style>
+</head>
+  <body>
+    <h1>교수등록화면</h1>
+    <form action = "professorRegister.do" method = "get">
+      교수 ID : <input type = "text" name = "id" placeholder = "아이디입력..." id = "idInput" required = "required"><br>
+      교수 PW : <input type = "password" name = "passwd" placeholder="패스워드입력..." id = "pwInput" required = "required"><br>
+      교수 이름 : <input type = "text" name = "name" placeholder = "이름입력..." required = "required"> <br>
+      교수 과목 : <input type = "text" name = "subject" placeholder="과목입력..." required = "required"><br>
+      <input type = "image" src = "images/register.jpeg" id = "btn1">
+      <input type = "image" src = "images/reset.jpg" id = "btn2">
+    </form>
+  </body>
+</html>

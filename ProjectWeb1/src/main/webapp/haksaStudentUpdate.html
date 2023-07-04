@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>학사관리프로젝트</title>
+    <style>
+        #updateStudentID{
+            margin-left: 16px;
+        }
+        #updateStudentName{
+            margin-left: 32px;
+        }
+        #updateStudentHakbun{
+            margin-left: 32px;
+        }
+        #update{
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h2>학생수정</h2>
+    <form action = "studentUpdate.do" method = "get">
+    	기존의 학생이름입력 : <input type = "text"  name = "name" placeholder="기존이름입력..." id = "studentName" required = "required"><br>
+        수정할 학생아이디 : <input type = "text" name = "id" placeholder="학생아이디입력..." id = "updateStudentID" required = "required"><br>
+        수정할 학생비밀번호 : <input type = "password" name = "passwd" placeholder="학생비밀번호입력..." id = "updateStudentPW" required = "required"><br>
+        수정할 학생이름 : <input type = "text" name = "updateName" placeholder="학생이름입력..." id = "updateStudentName" required = "required"><br>
+        수정할 학생학번 : <input type = "text" name = "hakbun" placeholder="학생학번입력..." id = "updateStudentHakbun" required = "required"><br>
+        <input type ="image" src = "images/update.png" id = "update">
+    </form>
+</body>
+</html>
